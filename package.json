@@ -1,0 +1,17 @@
+{
+  "name": "easy-patient-letters",
+  "version": "1.1.0",
+  "description": "Easy Patient Letters is a system that uses a Large Language Model (LLM) to analyze patient letters and provide easy-to-understand summaries and suggestions based on the extracted key points.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Jakl",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.0.1",
+    "openai": "^4.77.3",
+    "socket.io": "^4.8.1"
+  }
+}
